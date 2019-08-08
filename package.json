@@ -1,13 +1,13 @@
 {
   "name": "speed-test-webapp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "express/graphql server to get data from mongo made by speed-test-process",
   "main": "server.js",
   "author": "Liam Kennedy <liam@lkenn.xyz>",
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
-	"develop": "node -r dotenv/config server.js"
+    "develop": "node -r dotenv/config server.js"
   },
   "dependencies": {
     "express": "^4.16.4",
